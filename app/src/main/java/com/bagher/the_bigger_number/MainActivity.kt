@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.random.Random
-import kotlin.random.nextInt
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -58,13 +58,14 @@ class MainActivity : AppCompatActivity() {
 
         if (isAnswerCorrect){
 
-            constraintMain.setBackgroundColor(Color.GREEN)
+            constraintMain.setBackgroundColor(Color.CYAN)
             Toast.makeText(this,"Correct",Toast.LENGTH_SHORT).show()
 
         }else{
 
             constraintMain.setBackgroundColor(Color.RED)
             Toast.makeText(this,"Wrong",Toast.LENGTH_SHORT).show()
+
 
         }
 
