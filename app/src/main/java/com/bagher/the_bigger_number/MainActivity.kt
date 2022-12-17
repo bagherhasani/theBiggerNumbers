@@ -50,6 +50,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun checkAsnwer(isRightButtonSelected:Boolean){
 
+        // Here is comment for the fourth commit just to see the difference
+
         val rightNum:Int=btnRight.text.toString().toInt()
         val leftNum:Int=btnLeft.text.toString().toInt()
 
