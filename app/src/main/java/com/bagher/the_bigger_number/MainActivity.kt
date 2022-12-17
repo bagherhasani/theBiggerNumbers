@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.random.Random
-
+import kotlin.random.nextInt
 
 
 class MainActivity : AppCompatActivity() {
@@ -65,7 +65,6 @@ class MainActivity : AppCompatActivity() {
 
             constraintMain.setBackgroundColor(Color.RED)
             Toast.makeText(this,"Wrong",Toast.LENGTH_SHORT).show()
-            //Here is a comment to see if the git knows the difference
 
         }
 
